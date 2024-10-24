@@ -5,14 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
+    "dev": "node --watch src/index.js",
     "docs": "jsdoc ./src/*"
   },
   "keywords": [],
   "author": "lissy",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^12.0.0"
+    "inquirer": "^12.0.0",
+    "prompt-sync": "^4.2.0"
   },
   "devDependencies": {
     "jsdoc": "^4.0.4",
